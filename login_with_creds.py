@@ -1,6 +1,6 @@
 from time import sleep
 from social_media_bot import SmEngine
-from popup_ignore import ignore_notification
+from run import post_loop
 
 
 class LoginWithCreds(SmEngine):
@@ -25,4 +25,4 @@ class LoginWithCreds(SmEngine):
         button_login = self.browser.find_element_by_css_selector('button[type="submit"]')
         button_login.click()
         sleep(3)
-        ignore_notification(self.browser)
+        post_loop(self.browser)

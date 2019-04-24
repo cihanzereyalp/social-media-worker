@@ -1,12 +1,10 @@
-
-
 class SmData():
     def __init__(self):
         self.sm_info = {
-            'instagram' : {
+            'instagram': {
                 'login_url': 'https://www.instagram.com/accounts/login/?hl=tr'
             },
-            'facebook' : {
+            'facebook': {
                 'login_url': 'https://www.instagram.com/accounts/login/?hl=tr'
             }
         }
