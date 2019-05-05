@@ -1,0 +1,8 @@
+{
+  "instagram": {
+    "hash_tags_post": "//*[@id=\"react-root\"]/section/main/article/div[1]/div/div/div[{row}]/div[{column}]/a/div",
+    "next_arrow": "//a[@class='HBoOv coreSpriteRightPaginationArrow']",
+    "like": "//span[@aria-label='Like']",
+    "follow": "//button[@class='oW_lN _0mzm- sqdOP yWX7d        '][text()='Follow']"
+  }
+}

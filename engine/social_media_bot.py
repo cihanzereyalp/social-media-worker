@@ -2,7 +2,6 @@ import os
 from selenium import webdriver
 from sm_data import SmData
 from time import sleep
-import run
 
 
 class SmEngine:
