@@ -1,6 +1,6 @@
 import os
 from selenium import webdriver
-from sm_data import SmData
+from ..sm_data import SmData
 from time import sleep
 
 

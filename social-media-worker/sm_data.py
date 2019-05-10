@@ -6,5 +6,8 @@ class SmData():
             },
             'facebook': {
                 'login_url': 'https://www.instagram.com/accounts/login/?hl=tr'
+            },
+            'twitter': {
+                'login_url': 'https://twitter.com/login?lang=en'
             }
         }
