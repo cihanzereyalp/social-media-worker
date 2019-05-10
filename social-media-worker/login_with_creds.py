@@ -1,6 +1,6 @@
 from time import sleep
-from engine.social_media_bot import SmEngine
-from run import post_loop
+from .engine.social_media_bot import SmEngine
+from .run import post_loop
 
 
 class LoginWithCreds(SmEngine):
